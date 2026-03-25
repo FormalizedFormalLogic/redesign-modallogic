@@ -1,0 +1,9 @@
+{
+    "lean4.input.customTranslations": {
+        "land": "⋏",
+        "lor": "⋎",
+        "lnot": "∼",
+        "limp": "→",
+        "liff": "↔",
+    }
+}

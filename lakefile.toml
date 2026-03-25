@@ -1,0 +1,9 @@
+name = "ModalLogic"
+defaultTargets = ["ModalLogic"]
+
+[[require]]
+scope = "leanprover-community"
+name = "mathlib"
+
+[[lean_lib]]
+name = "ModalLogic"
