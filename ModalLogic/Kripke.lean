@@ -62,10 +62,10 @@ attribute [grind .]
     kripkeForced_falsum
 
 def KripkeModelValid (M : KripkeModel τ α κ) (φ : Formula τ α) : Prop := ∀ w : M.World, w ⊩ φ
-infix:25 "⊧" => KripkeModelValid
+infix:25 " ⊧ " => KripkeModelValid
 
 def KripkeFrameValid (F : KripkeFrame τ κ) (φ : Formula τ α) : Prop := ∀ V, (⟨F, V⟩ : KripkeModel τ α κ) ⊧ φ
-infix:25 "⊧" => KripkeFrameValid
+infix:25 " ⊧ " => KripkeFrameValid
 
 end Formula
 
